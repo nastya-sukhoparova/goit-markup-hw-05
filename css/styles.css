@@ -785,6 +785,10 @@ justify-content: center;
 fill: transparent;
 }
 
+.modal-check-span{
+    display: inline-flex;
+}
+
 .modal-check:checked + .user-privacy
 >.modal-check-span{
     background-color:#404bbf;
