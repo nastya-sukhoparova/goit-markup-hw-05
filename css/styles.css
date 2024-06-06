@@ -720,7 +720,13 @@ fill: #4d5ae5;
     margin-bottom: 8px;
 }
 
+.modal-field-textarea{
+    margin-bottom: 16px;
+}
 
+.modal-field-checkbox{
+    margin-bottom: 24px;
+}
 
 .modal-field-wrap {
     position: relative;
