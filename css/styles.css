@@ -792,6 +792,14 @@ fill: transparent;
     fill:#F4F4FD;
 }
 
+.text-privacy{
+    color:#4d5ae5;
+    line-height: 1.4;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+       
+}
+
 .modal-btn {
     display: block;
     margin: 0 auto;
