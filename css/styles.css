@@ -717,7 +717,7 @@ fill: #4d5ae5;
 }
 
 .modal-field{
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-field-wrap {
@@ -785,11 +785,11 @@ justify-content: center;
 fill: transparent;
 }
 
-.modal-check-span{
+.modal-check:checked + .user-privacy
+>.modal-check-span{
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
-    
 }
 
 .modal-btn {
