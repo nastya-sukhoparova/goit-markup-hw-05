@@ -428,9 +428,26 @@
 
     </ul>
 </div>
+<div class="footer-subscribe">
+    <p class="footer-text-three">Subscribe</p>
+    <form class="footer-form">
+        <label for="email" class="footer-label">
+            <input 
+            type="text"
+            name="email"
+            class="footer-input"
+            placeholder="E-mail">
+        </label>
+        <button class="footer-btn">Subscribe
+            <svg class="footer-frame-icon" width="24" height="24">
+                <use href="./images/icomoon/icons.svg#icon-Frame-3"></use>
+            </svg>
+        </button>
+    </form>
+</div>
 </div>
     </footer>
-<div class="backdrop">
+<div class="backdrop ">
     <div class="modal">
         <button type="button" class="modal-close">
             <svg class="modal-close-icon" width="8" height="8">
@@ -502,10 +519,15 @@
             name="user-privacy"
             id="user-privacy"
             value="true"
-            class="visually-hidden"
+            class="modal-check visually-hidden"
+            
             />
             <label for="user-privacy" class="modal-check-text"
-            > <span class="modal-check-span"></span>I accept the terms and conditions of the Privacy Policy
+            > <span class="modal-check-span">
+                <svg class="check-icon" width="10" height="10">
+                    <use href="./images/icomoon/icons.svg#icon-Vector"></use>
+                </svg>
+            </span>I accept the terms and conditions of the Privacy Policy
             </label>
             </div >
             <button type="submit" class="modal-btn">Send</button>
