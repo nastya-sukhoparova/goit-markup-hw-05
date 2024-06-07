@@ -777,6 +777,7 @@ font-weight: 400;
 }
 
 .modal-check-text span{
+display: inline-flex;
 width: 16px;
 height: 16px;
 border-radius: 2px;
@@ -790,10 +791,6 @@ justify-content: center;
 fill: transparent;
 }
 
-.modal-check-span{
-    display: inline-flex;
-}
- 
 .modal-check:checked + .modal-check-text
 >.modal-check-span{
     background-color:#404bbf;
